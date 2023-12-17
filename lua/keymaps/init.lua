@@ -1,0 +1,12 @@
+vim.g.mapleader = " "
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n","j","<Up>", {})
+vim.keymap.set("n","k","<Down>",{})
+vim.keymap.set("v","j","<Up>", {})
+vim.keymap.set("v","k","<Down>", {})
+vim.keymap.set("n","<C-j>", "gT", {})
+vim.keymap.set("n","<C-k>", "gt", {})
+vim.keymap.set("n","<leader>`", ":tabnew<CR>:terminal<CR>A<CR>", {})
+vim.keymap.set("n","<C-w>", ":tabc<CR>", {})
+vim.keymap.set("t","<esc>", "<C-\\><C-N>", {})
+vim.keymap.set("n","<C-o>", ":tabnew<CR>", {})
